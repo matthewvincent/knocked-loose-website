@@ -175,7 +175,10 @@ body {
 }
 
 @media (max-width: 700px) {
-
+  .tour-dates {
+    margin-top: 120px;
+    height: 300px;
+  }
   .social-wrapper {
     position: absolute;
     top: auto;
