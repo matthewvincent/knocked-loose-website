@@ -235,7 +235,18 @@ body {
   text-align: center;
 }
 @media (max-width: 375px) {
+  .social-button {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+    border: solid white 2px;
+    opacity: .6;
 
+  }
   .nav-button {
     background-color: transparent;
     padding: 11px;
@@ -245,9 +256,10 @@ body {
     margin-left: 0px;
   }
   #social li {
+    font-size: 14px;
     list-style-type: none;
     text-align: center;
-    padding: .6em;
+    padding: .3em;
     display: inline-block;
     margin: auto;
   }
