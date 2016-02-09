@@ -1,0 +1,280 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body { 
+  background: url(../img/knocked_loose_promo2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+.modal-content {
+   text-decoration: none !important; 
+}
+.tour-wrapper {
+  
+}
+.tour-dates {
+  margin-top: 200px;
+  max-width: 1000px;
+  overflow: auto;
+}
+.tour-dates a {
+  color: gray;
+}
+.nav-links {
+	display: table;
+	float: left;
+}
+.nav-links button {
+  margin-top: 60px;
+}
+.nav-button:hover {
+	color: rgba(225, 225, 225, 0.6);
+}
+.nav-button:focus {
+	outline: none;
+}
+.nav-button {
+	background-color: transparent;
+	border: none;
+	margin-top: 4.2px;
+  margin-right: 1.2em;
+  margin-left: -5px;
+}
+.navbar-text {
+	color: white;
+}
+.navbar-inverse {
+	background: transparent;
+	border-bottom: 0px;
+  z-index: 10;
+}
+.navbar {
+  z-index: 10;
+  position: absolute;
+}
+
+.navbar-toggle {
+	border: none;
+}
+#hamburger:hover {
+	background-color: transparent;
+	opacity: .8;
+}
+#footer {
+	position:fixed;
+	bottom:0;
+	z-index:999999;
+	text-align: center;
+	display: inline;
+	width:100%;
+}
+.footer-text {
+	text-align: center;
+	color: white;
+}
+
+#social li {
+    list-style-type: none;
+    text-align: center;
+    padding: .5em;
+    display: inline-block;
+    margin: auto;
+
+
+}
+.social-wrapper {
+    margin-top: 10px;
+
+    text-align: right;
+    z-index: 10000;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+  .social-wrapper {
+    padding-right: 55px;
+  }
+
+.social-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    border: solid white 2px;
+    opacity: .6;
+
+}
+.social-button:hover {
+    color: #010101;
+    background-color: white;
+    border: solid white 2px;
+    opacity: 1;
+     -webkit-box-shadow: 0 8px 6px -6px #333333;
+       -moz-box-shadow: 0 8px 6px -6px #333333;
+            box-shadow: 0 8px 6px -6px #333333;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    margin: 20px;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+.thumbnail {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.modal-content {
+	background-color: rgba(0, 0, 0, 0.6); 
+}
+.modal-header {
+  border-bottom: 0px;
+  margin-top: 100px;
+  text-decoration: none !important;
+}
+.modal-title {
+  font-size: 30px;
+}
+.close {
+  color: white;
+  opacity: 1;
+}
+.close:hover {
+  color: gray;
+}
+.modal-header .close {
+  font-size: 40px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  right: 0;
+  left: 0;
+}
+.nav-links {
+    margin-top: 4em;
+}
+
+@media (max-width: 700px) {
+
+  .social-wrapper {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    right: 0;
+    left: 0;
+    z-index: 0;
+  }
+  .social-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    border: solid white 2px;
+    opacity: 1;
+
+  }
+  .social-button:hover {
+    opacity: 1;
+  }
+
+  .nav-links {
+    margin-left: 15px;
+    margin-top: 4em;
+  }
+}
+.itunes {
+  margin: 20px;
+  max-width: 80px;
+}
+.spotify {
+  margin: 20px;
+  max-width: 250px;
+}
+#buyModal {
+  background-color: rgba(0, 0, 0, .7)
+}
+#buyModal h1 {
+  margin-left: 25px;
+}
+.buy-body {
+  text-align: center;
+}
+#album-cover {
+  max-width: 400px;
+}
+.buy-modal-header {
+  text-align: center;
+}
+@media (max-width: 375px) {
+
+  .nav-button {
+    background-color: transparent;
+    padding: 11px;
+    border: none;
+    margin-top: 4.2px;
+    margin-right: 1px;
+    margin-left: 0px;
+  }
+  #social li {
+    list-style-type: none;
+    text-align: center;
+    padding: .6em;
+    display: inline-block;
+    margin: auto;
+  }
+  .social-footer {
+    text-align: center;
+    padding: auto;
+  }
+    .social-wrapper {
+    padding-right: 55px;
+  }
+  #album-cover {
+    max-width: 200px;
+  }
+  .itunes {
+    margin: 20px;
+    max-width: 35px;
+  }
+  .spotify {
+    margin: 20px;
+    max-width: 100px;
+  }
+  #buyModal h1 {
+    margin-left: 30px;
+    font-size: 18px;
+  }
+  #buyModal h3 {
+    font-size: 18px;
+  }
+  #buyModal {
+    margin-top: -40px;
+  }
+} 
+
