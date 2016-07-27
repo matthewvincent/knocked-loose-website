@@ -4,6 +4,8 @@
    Author's custom styles
    ========================================================================== */
 
+@import /styles.css;
+
 body { 
   background: url(../img/knocked_loose_promo2.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -11,7 +13,41 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: white;
+  font-family: "LUCKYTYPEWRITER";
+  font-size: 13px;
 }
+
+.merch-stores {
+  margin-top: 60px;
+}
+
+.preorder-button {
+  background: 0 none;
+  border: 4px solid white;
+  padding: 10px;
+  display: flex-row;
+  font-size: 20px;
+  width: 67%;
+  margin-top: 10px;
+}
+
+.preorder-button a{
+  text-decoration: none;
+  color: white;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  text-align: center;
+  z-index: 10000;
+}
+
+.album-cover {
+  margin: auto;
+}
+
 .modal-content {
    text-decoration: none !important; 
 }
@@ -140,6 +176,7 @@ body {
 
 }
 .thumbnail {
+  border: 0 none;
   background-color: rgba(0, 0, 0, 0.6);
 }
 .modal-content {
@@ -147,13 +184,13 @@ body {
 }
 .modal-header {
   border-bottom: 0px;
-  margin-top: 100px;
   text-decoration: none !important;
 }
 .modal-title {
   font-size: 30px;
 }
 .close {
+
   color: white;
   opacity: 1;
 }
@@ -174,7 +211,7 @@ body {
     margin-top: 4em;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .tour-dates {
     margin-top: 120px;
     height: 300px;
@@ -210,6 +247,10 @@ body {
     margin-left: 15px;
     margin-top: 4em;
   }
+
+  .preorder-button {
+    width: 100%;
+  }
 }
 .itunes {
   margin: 20px;
@@ -219,21 +260,9 @@ body {
   margin: 20px;
   max-width: 250px;
 }
-#buyModal {
-  background-color: rgba(0, 0, 0, .7)
-}
-#buyModal h1 {
-  margin-left: 25px;
-}
-.buy-body {
-  text-align: center;
-}
-#album-cover {
-  max-width: 400px;
-}
-.buy-modal-header {
-  text-align: center;
-}
+
+
+
 @media (max-width: 375px) {
   .social-button {
     height: 35px;
@@ -270,26 +299,6 @@ body {
     .social-wrapper {
     padding-right: 55px;
   }
-  #album-cover {
-    max-width: 200px;
-  }
-  .itunes {
-    margin: 20px;
-    max-width: 35px;
-  }
-  .spotify {
-    margin: 20px;
-    max-width: 100px;
-  }
-  #buyModal h1 {
-    margin-left: 30px;
-    font-size: 18px;
-  }
-  #buyModal h3 {
-    font-size: 18px;
-  }
-  #buyModal {
-    margin-top: -40px;
-  }
+
 } 
 
