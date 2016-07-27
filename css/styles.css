@@ -1,6 +1,3 @@
-body {
-	font-family:'LUCKYTYPEWRITER', 'helvetica' ;
-}
 
 
 @font-face {
@@ -12,7 +9,7 @@ body {
 
 @font-face {
   font-family: 'LUCKYTYPEWRITER';
-  src:  url(../fonts/data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAHmYAAsAAAAA9oQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABeAAAAFcA
+  src:  url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAHmYAAsAAAAA9oQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABeAAAAFcA
 AABgRb+/D2NtYXAAAAQMAAACZQAAA6QbfgWjZ2FzcAAAeZAAAAAIAAAACP//AANnbHlmAAAIEAAA
 bKkAAOOMBt+EemhlYWQAAAEIAAAANgAAADYGI6A3aGhlYQAAAUAAAAAgAAAAJA4QBsBobXR4AAAB
 0AAAAjsAAAM00fz04GxvY2EAAAZ0AAABnAAAAZxIDoDQbWF4cAAAAWAAAAAVAAAAIADTAOhuYW1l
@@ -563,4 +560,7 @@ AAH//wAC) format('woff'), url('../fonts/LUCKYTYPEWRITER.ttf')  format('truetype'
   font-style: normal;
 }
 
+body {
+	font-family:'LUCKYTYPEWRITER', 'helvetica' ;
+}
 
