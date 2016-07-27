@@ -4,8 +4,6 @@
    Author's custom styles
    ========================================================================== */
 
-@import /styles.css;
-
 body { 
   background: url(../img/knocked_loose_promo2.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
