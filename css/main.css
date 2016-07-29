@@ -200,10 +200,16 @@ body {
     margin-top: 4em;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .tour-dates {
+    height: 700px;
+  }
+}
+
+@media (max-width: 767px) {
   .tour-dates {
     margin-top: 120px;
-    height: 300px;
+    height: 400px;
   }
   .social-wrapper {
     position: absolute;
@@ -219,13 +225,12 @@ body {
   .social-button {
     height: 40px;
     width: 40px;
-    border-radius: 50%;
+   
     background-color: transparent;
     text-align: center;
     padding-top: 8px;
     color: white;
-    border: solid white 2px;
-    opacity: 1;
+    opacity: .6;
 
   }
   .social-button:hover {
@@ -256,13 +261,10 @@ body {
   .social-button {
     height: 35px;
     width: 35px;
-    border-radius: 50%;
     background-color: transparent;
     text-align: center;
-    padding-top: 5px;
-    color: white;
-    border: solid white 2px;
     opacity: .6;
+    font-size: 16px;
 
   }
   .nav-button {
@@ -277,16 +279,23 @@ body {
     font-size: 14px;
     list-style-type: none;
     text-align: center;
-    padding: .3em;
+    padding: .1em;
     display: inline-block;
     margin: auto;
   }
   .social-footer {
     text-align: center;
     padding: auto;
+    margin-top: 40px;
+    background-color: pink;
   }
     .social-wrapper {
     padding-right: 55px;
+  }
+
+  .tour-dates {
+    margin-top: 120px;
+    height: 300px;
   }
 
 } 
