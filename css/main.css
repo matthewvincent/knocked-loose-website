@@ -136,25 +136,17 @@ body {
   }
 
 .social-button {
+  font-size: 20px;
     height: 40px;
     width: 40px;
-    border-radius: 50%;
     background-color: transparent;
     text-align: center;
-    padding-top: 8px;
     color: white;
-    border: solid white 2px;
     opacity: .6;
 
 }
 .social-button:hover {
-    color: #010101;
-    background-color: white;
-    border: solid white 2px;
     opacity: 1;
-     -webkit-box-shadow: 0 8px 6px -6px #333333;
-       -moz-box-shadow: 0 8px 6px -6px #333333;
-            box-shadow: 0 8px 6px -6px #333333;
 }
 
 .videoWrapper {
